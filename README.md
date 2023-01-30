@@ -9,3 +9,5 @@ The included customized Ubuntu core model was created as:
 
 ## Issues
 Despite many efforts, I was not able to create an image that would skip the initial configuration (associating the device with Ubuntu SSO) and still allow user login. I tried to solve this problem using the `--cloud-init cloud.conf` argument with `ubuntu-image` command but I must have misconfigured something or otherwise encountered a bug as I always hit the _"Error: Error preparing image: cannot support with UC20 model requested customizations: cloud-init user-data"_ message. The same cloud config was supposed to handle showing the 'hello world' message as well.
+
+As creating a bootable USB image can potentially be dangerous if the USB device was not correctly identified (and since the time has run out), enabling this feature requires manually editing the `build.sh` file by adding the correct device name and uncommenting USB creation commands.
