@@ -1,0 +1,42 @@
+type: model
+authority-id: w0gajTBDY4VJ6ZJgWwN7Uj3wWkmctyQu
+series: 16
+brand-id: w0gajTBDY4VJ6ZJgWwN7Uj3wWkmctyQu
+model: ubuntu-core-22-amd64
+architecture: amd64
+base: core22
+grade: signed
+snaps:
+  -
+    default-channel: 22/stable
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 22/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+timestamp: 2023-01-30T19:16:50+00:00
+sign-key-sha3-384: DhkFYKjzVckMJ3zkGP-rf7ZRhce4hqOTiycAXlYY_CSm1Tb2rZ87Z7aEr-hB_nfM
+
+AcLBcwQAAQoAHRYhBB1aQbHi7D4Swq7hTRFuSDz+uLl2BQJj2BgVAAoJEBFuSDz+uLl2aJMQAInF
+bdgh3Czpziduj1a+rSOTUjBEvFgxGnBGlPLyQiqfXwVZH+VoqZIkqp9ZSEaHiVbe+kBmBRN3KoXf
+mdVa1ASIn5kh0Y3BeprOgfZi9F7Puz6rzGxZiktpHi10XvxWKHFXsT3tZcgkneSxkNwNlNS5enIG
++LIgtXYVzbl+Dsx1rHVgAV6JftXIcgGT8fqFZyEwPGOgRyg8+Eov3gFSQsBzMHPXWK8XemV/0XkZ
+0S4+qXzt5SYcPrdYMUwtBRf/xlT1+/35oioy8BX7M4irO0QU/GRJHJonC2hVhk3s8FROQJ1cvN87
+U4B+Xdy0Ng+dyovTpb8+OoydHaP8lu0zeBC3oVxeyEFBEcLft0C7Cn9YjOnwU5PP5ktnxT5t8g+P
+efWjWemdCTNysfQKIUcETR7AikLBOBfzafYwJ8wgmS/cOY9f/xRxqjky+BIbE9LsUGS71CTn6IpN
+QNQXmOrfibcURQeEuHmNiwFUe7Jj5+T+zZpEGlvKgM8UyQw3AkRkZp+Df3hPELJRQh2mkpAetIQG
+U5XsJyUZ1hSjPN2o+txAYA9ulu3rbCI9N6uHNQsjtVzoax2f/LibiLpH+ZpVPVQtjJ9q4RSp8Ss3
+uIKi0LhR6ffRGdRBj2MRxCrEASJkYVz1UZ0azMDzVkrEQ6t1mqd+JGO++aKXEMrtAEVqVO4D
